@@ -88,8 +88,9 @@ where X^(i) are independent samples from P(X).
 
 **Integration:** Estimate π by sampling uniformly in [0,1]² and counting how many fall in unit circle:
 
-$$\hat{\pi} = 4 \times \frac{\text{# points in circle}}{N}$$
-
+$$
+\hat{\pi} = 4 \times \frac{\text{number of points in circle}}{N}
+$$
 **Risk quantification:** Generate N scenarios of input uncertainties, evaluate model output, compute expected cost or failure probability.
 
 **Uncertainty propagation:** For y = f(x) where x is uncertain:

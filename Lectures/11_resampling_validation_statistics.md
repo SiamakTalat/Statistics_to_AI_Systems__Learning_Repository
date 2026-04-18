@@ -324,7 +324,9 @@ Tests whether model performance is **statistically significant** or due to chanc
 4. **Repeat step 2-3 many times** (B times)
 5. **Compute p-value:**
 
-$$p = \frac{1 + \#(M_{\text{perm}} \geq M_{\text{real}})}{1 + B}$$
+$$
+p = \frac{1 + \left| \{ M_{\text{perm}} \geq M_{\text{real}} \} \right|}{1 + B}
+$$
 
 ### 9.2 Interpretation
 
