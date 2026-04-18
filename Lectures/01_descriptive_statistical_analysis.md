@@ -152,21 +152,17 @@ A **frequency table** is a structured summary showing how many times each value,
 
 ### 4.1 Core Formulas
 
-**Frequency** ($f_i$) — count of observations in class $i$:
+**Frequency** ($f_i$):
+$$f_i=\text{count of observations in class }i$$
 
-$$f_i = \text{count of observations in class } i$$
+**Relative Frequency** ($r_i$):
+$$r_i=\frac{f_i}{n}$$ — the proportion of total observations
 
-**Relative Frequency** ($r_i$) — the proportion of total observations:
+**Percentage**:
+$$p_i=\frac{f_i}{n}\times100$$ — relative frequency expressed as a percentage
 
-$$r_i=\frac{f_i}{n}$$
-
-**Percentage** — relative frequency expressed as a percentage:
-
-$$p_i=\frac{f_i}{n}\times100$$
-
-**Cumulative Frequency** ($F_i$) — running total of frequencies up to class $i$:
-
-$$F_i=\sum_{j=1}^{i}f_j$$
+**Cumulative Frequency** ($F_i$):
+$$F_i=\sum_{j=1}^{i}f_j$$ — running total of frequencies up to class i
 
 ### 4.2 Practical Applications
 
